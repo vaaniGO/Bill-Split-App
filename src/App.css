@@ -1,0 +1,159 @@
+body {
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #1186fc;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #1b263b;
+  border-radius: 10px;
+  background-color: #1b263b;
+}
+
+.person, .dish {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #415a77;
+  background-color: #415a77;
+  color: #e0e1dd;
+  flex: 1;
+}
+.comic-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1d8af7;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.comic-button:hover {
+  background-color: #1b263b;
+  color: #1d8af7;
+  border: 2px solid #1d8af7;
+  box-shadow: 5px 5px 0px #1d8af7;
+}
+
+.comic-button:active {
+  background-color: #f2fce2;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.button:disabled, .calculate-btn:disabled {
+  background-color: #415a77; /* Light gray */
+  color: #00000090; /* Muted text */
+  cursor: not-allowed; /* Change cursor to indicate it's disabled */
+  opacity: 0.6; /* Optional: Reduce opacity */
+}
+h6, h4 {
+  color: #415a77;
+  font-weight: 1px;
+}
+h6 {
+  font-size: 15px;
+}
+img {
+  width: 40px;
+  height: 40px;
+  align-self:flex-end;
+  margin-right: 10px;
+}
+
+.calculate-btn {
+  margin: 20px;
+
+}
+
+.assign-all-btn {
+  margin: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  align-self: last baseline;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; /* Centers the table horizontally */
+  align-items: center; /* Centers the table vertically */
+  height: 100%; /* Adjust based on parent div height */
+}
+
+table {
+  border-collapse: collapse; /* Optional: makes table borders cleaner */
+}
+
+th, td {
+  padding: 10px; /* Optional: adjusts padding for table cells */
+  text-align: center; /* Optional: centers content inside table cells */
+}
+
+thead {
+  background-color: #2c3e50; /* Dark blue theme */
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #34495e; /* Slightly lighter blue for alternating rows */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #2c3e50;
+}
+
+.footer {
+  color: #5292d17b;
+  display: flex;
+  justify-content: right;
+}
+
+.owing-record input {
+  max-width: 400px;
+}
+.owing-record {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
