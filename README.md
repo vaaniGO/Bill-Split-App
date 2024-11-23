@@ -9,4 +9,4 @@ math for you - and you can also settle all your previous records with people, al
 Harry and Suzy had drinks, but Midge owes Harry, so she can cover the drinks, but Suzy only had one drink, while Harry had almost all of them - don't worry,
 this solution ensures that you only pay what you owe. 
 
-It is deployed here: 
+It is deployed here: https://bill-split-app.onrender.com/ 
